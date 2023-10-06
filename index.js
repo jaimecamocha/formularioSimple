@@ -4,10 +4,10 @@
 document.getElementById("Registro").addEventListener("click", function(event) {
  
 
-    var nombre = document.getElementById("nombre").value;
-    var apellidos = document.getElementById("apellidos").value;
-    var email = document.getElementById("email").value;
-    var contrasena = document.getElementById("contrasena").value;
+    let nombre = document.getElementById("nombre").value;
+    let apellidos = document.getElementById("apellidos").value;
+    let email = document.getElementById("email").value;
+    let contrasena = document.getElementById("contrasena").value;
 
     if (nombre != "" && apellidos != "" && email != "" && contrasena != "") {
         document.getElementById("nombre").value = "";
